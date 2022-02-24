@@ -26,3 +26,5 @@ func TestBuildSchema(t *testing.T) {
 		t.Errorf("Could not construct GraphQL handler: %v", err)
 	}
 }
+
+function TestBuildSchema2(t *testing.T) {}
