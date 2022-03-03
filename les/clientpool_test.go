@@ -167,6 +167,7 @@ func testClientPool(t *testing.T, connLimit, clientCount, paidCount int, randomD
 	pool.stop()
 }
 
+
 func TestConnectPaidClient(t *testing.T) {
 	var (
 		clock mclock.Simulated
