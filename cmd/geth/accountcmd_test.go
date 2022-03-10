@@ -66,6 +66,7 @@ Account #2: {289d485d9771714cce91d3393d764e1311907acc} keystore://{{.Datadir}}/k
 	}
 }
 
+
 func TestAccountNew(t *testing.T) {
 	geth := runGeth(t, "account", "new", "--lightkdf")
 	defer geth.ExpectExit()
