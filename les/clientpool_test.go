@@ -38,6 +38,7 @@ func TestClientPoolL40C200Free(t *testing.T) {
 	testClientPool(t, 40, 200, 0, true)
 }
 
+
 func TestClientPoolL100C300Free(t *testing.T) {
 	testClientPool(t, 100, 300, 0, true)
 }
