@@ -41,6 +41,7 @@ func getChunk(size int, b int) []byte {
 	return data
 }
 
+
 // TestFreezerBasics test initializing a freezertable from scratch, writing to the table,
 // and reading it back.
 func TestFreezerBasics(t *testing.T) {
