@@ -30,6 +30,7 @@ contract test {
        return a * 7;
    }
 }
+
 `
 )
 
