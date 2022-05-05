@@ -52,6 +52,7 @@ func (a *Account) getState(ctx context.Context) (*state.StateDB, error) {
 	return state, err
 }
 
+
 func (a *Account) Address(ctx context.Context) (common.Address, error) {
 	return a.address, nil
 }
