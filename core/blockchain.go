@@ -112,6 +112,7 @@ const (
 	BlockChainVersion uint64 = 7
 )
 
+
 // CacheConfig contains the configuration values for the trie caching/pruning
 // that's resident in a blockchain.
 type CacheConfig struct {
