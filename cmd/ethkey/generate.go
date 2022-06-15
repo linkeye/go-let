@@ -35,6 +35,7 @@ type outputGenerate struct {
 	AddressEIP55 string
 }
 
+
 var commandGenerate = cli.Command{
 	Name:      "generate",
 	Usage:     "generate new keyfile",
