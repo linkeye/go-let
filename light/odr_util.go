@@ -29,6 +29,7 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 )
 
+
 var sha3Nil = crypto.Keccak256Hash(nil)
 
 // GetHeaderByNumber retrieves the canonical block header corresponding to the
