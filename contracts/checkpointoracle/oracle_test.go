@@ -36,6 +36,7 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 )
 
+
 var (
 	emptyHash = [32]byte{}
 
